@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-position: 1500px;
+   
+    background-image: url(../photo/R.jpgpald.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: 100%;
+   
+
+    
+}
+.nave{
+    width: 100%;
+    height: 100px;
+    position:fixed ;top: 0; left: auto;
+    background-color: rgba(37, 27, 27,.3) 
+    
+    
+    
+}
+.nave :focus{
+   
+    color: rgba(245, 104, 104,0.3);
+}
+
+
+.nave ul li  a{
+   margin:50px;
+    float:right;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.profial{ 
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-image: url(../photo/R.jpgpald.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+    .profial .caption{
+        width: 100% ;
+        height: 100% ;
+        padding: 15px 10px;
+        background-color: rgba(245, 225, 225, 0.3);
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        transition: all 1s;
+        
+    }
+
+.profial:hover .caption{
+    top: 00%;
+    left: 00%;
+    transform: rotate(360deg);
+
+
+}
+    .profial .caption h1{
+        color: white;
+        font-style: italic;
+    }
+    .profial .caption p{
+        padding: 30px;
+        font-size: larger;
+        font-weight:  bolder;
+        color: black;
+    }
+    .profial .caption button{
+        width: 150px;
+        height: 25px;
+    
+        background-color: black;
+        border-color:white;
+        border-radius: 10px;
+        color: white;
+        
+    }
+    button: :focus{
+        outline:none;
+    }
+     
